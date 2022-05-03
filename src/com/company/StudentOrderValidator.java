@@ -1,8 +1,13 @@
 package com.company;
+
+import org.w3c.dom.ls.LSOutput;
+
 // подача заявления для выплаты студенческой семьи
 public class StudentOrderValidator {
     public static void main(String[] args) {
+
         checkAll();
+
     }
 
     static void checkAll(){
@@ -41,4 +46,5 @@ public class StudentOrderValidator {
     static void sendMail(StudentOrder so){
 
     }
+
 }
